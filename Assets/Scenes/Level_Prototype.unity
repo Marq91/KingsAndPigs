@@ -248,8 +248,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.24075457, y: -0.04967946}
-  m_Size: {x: 0.6413954, y: 0.87068546}
+  m_Offset: {x: -0.015780807, y: -0.04967946}
+  m_Size: {x: 0.5851519, y: 0.87068546}
   m_Direction: 0
 --- !u!50 &150569799
 Rigidbody2D:
@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3eb5f4776be11b46bce432562c84d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 5
 --- !u!114 &150569801
 MonoBehaviour:
   m_ObjectHideFlags: 0
