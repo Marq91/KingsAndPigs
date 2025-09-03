@@ -29,7 +29,7 @@ public class GatherInput : MonoBehaviour
     //? Metodo Custom
     private void StartMove(InputAction.CallbackContext context)
     {
-        _valueX = context.ReadValue<float>();
+        _valueX = Mathf.RoundToInt(context.ReadValue<float>());
         Debug.Log("Value X: " + _valueX);
     }
 

@@ -295,7 +295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 4
   jumpForce: 10
-  extrajumps: 1
+  extraJumps: 1
   counterExtraJumps: 0
   lFoot: {fileID: 0}
   rFoot: {fileID: 0}
