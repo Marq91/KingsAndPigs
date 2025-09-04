@@ -30,13 +30,13 @@ public class GatherInput : MonoBehaviour
     private void StartMove(InputAction.CallbackContext context)
     {
         _valueX = Mathf.RoundToInt(context.ReadValue<float>());
-        Debug.Log("Value X: " + _valueX);
+        //Debug.Log("Value X: " + _valueX);
     }
 
     private void StopMove(InputAction.CallbackContext context)
     {
         _valueX = 0;
-        Debug.Log("Value X stoped: " + _valueX);
+        //Debug.Log("Value X stoped: " + _valueX);
     }
 
     private void StartJump(InputAction.CallbackContext context)
